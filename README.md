@@ -1,5 +1,7 @@
 ## atlantis
 
+![docker build image](https://github.com/thpham/atlantis/workflows/docker%20build%20image/badge.svg)
+
 docker image for atlantis docker with various support.
 
 **Base Image**
