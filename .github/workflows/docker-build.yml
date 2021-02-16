@@ -10,7 +10,7 @@ on:
 
 jobs:
   main:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-20.04 # self-hosted
     steps:
       - name: Checkout
         uses: actions/checkout@v2
