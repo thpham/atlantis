@@ -2,10 +2,10 @@ FROM runatlantis/atlantis:v0.15.1
 
 # python3 and ansible
 RUN set -ex && \
-    apk add --no-cache build-base python3-dev py3-pip libffi-dev openssl-dev && \
+    apk add --no-cache build-base python3-dev py3-pip libffi-dev openssl-dev rust cargo && \
     pip install --upgrade pip && \
     pip install ansible && \
-    apk del build-base libffi-dev openssl-dev
+    apk del build-base libffi-dev openssl-dev rust cargo
 
 RUN set -ex && \
     apk add --no-cache jq
