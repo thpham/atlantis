@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:v0.15.1
+FROM runatlantis/atlantis:v0.16.1
 
 # python3 and ansible
 RUN set -ex && \
